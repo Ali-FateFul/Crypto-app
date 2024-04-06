@@ -1,0 +1,32 @@
+.row {
+    height: 80px;
+    border-bottom: 1px solid #22262e;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.symbol {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.symbol img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.symbol span {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #9fa6b7;
+}
+.success {
+    color: #57bc7c;
+}
+.error {
+    color: #d33636;
+}
+@media (max-width: 600px) {
+    .row td {
+        padding: 0 10px;
+    }
+}
